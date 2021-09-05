@@ -1,4 +1,4 @@
-package es.isidoro.pokemon.pokemonserver.domain
+package com.isidoro.pokemons.model
 
 import java.util.UUID
 

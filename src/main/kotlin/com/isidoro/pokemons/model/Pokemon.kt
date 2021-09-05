@@ -1,6 +1,6 @@
-package es.isidoro.pokemon.pokemonserver.domain
+package com.isidoro.pokemons.model
 
-import es.isidoro.pokemon.pokemonserver.domain.PokemonType.ANY_POWER
+import com.isidoro.pokemons.model.PokemonType.ANY_POWER
 import java.util.UUID
 
 /**

@@ -1,14 +1,13 @@
-package es.isidoro.pokemon.pokemonserver.domain
+package com.isidoro.pokemons.model
 
-import es.isidoro.pokemon.pokemonserver.domain.PokemonType.*
+import com.isidoro.pokemons.model.PokemonType.GRASS
+import com.isidoro.pokemons.model.PokemonType.POISON
+import com.isidoro.pokemons.model.PokemonType.WATER
 import io.kotest.core.spec.style.StringSpec
-import io.kotest.core.spec.style.WordSpec
 import io.kotest.matchers.collections.shouldContainExactlyInAnyOrder
 import io.kotest.matchers.reflection.shouldBeData
 import io.kotest.matchers.reflection.shouldHaveMemberProperty
 import io.kotest.matchers.shouldBe
-import io.kotest.matchers.shouldNotBe
-import io.kotest.matchers.types.shouldBeSameInstanceAs
 
 class PokemonTest : StringSpec({
 
